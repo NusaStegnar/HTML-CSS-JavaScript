@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: blueviolet;
+}
+
+header {
+    background-color: aquamarine;
+}
+
+h1 {
+    font-family: Lucida Sans;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+}
+
+p.a {
+    text-align: left;
+    color: white;
+    font-family: Lucida Sans;
+    font-size: 14px;
+}
+
+p.b {
+    text-align: left;
+    color: white;
+    font-family: Lucida Sans;
+    font-size: 14px;
+}
+
+.topnav-right {
+    background-color: yellow;
+}
+
+.topnav-right a {
+    color: blue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topnav-right a:hover {
+    font-size: larger;
+    background-color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.topnav-right a.active {
+    color: white;
+}
