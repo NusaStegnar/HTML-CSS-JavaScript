@@ -47,7 +47,7 @@ body {
     color: white;
 }
 
-.info h2{
+.info h1{
     color: blueviolet;
     font-size: 40px;
     font-family: Lucida Sans;
@@ -69,21 +69,19 @@ body {
     margin: 5px;
 }
 
-h3 {
-    text-align: justify;
-    color: blueviolet;
-    font-size: 37px;
-    float: left;
-    margin: 30px;
-    margin-left: 60px;
-    margin-top: 40px;
-    margin-bottom: 0px;
-}
-
 .all_skills {
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
+}
+
+h2 {
+    line-height: 17px;
+    text-align: left;
+    color: blueviolet;
+    font-size: 37px;
+    margin-top: 100px;
+    margin-left: 40px;
 }
 
 .skill {
@@ -111,10 +109,38 @@ h3 {
     font-weight: bold;
 }
 
-.skill p{
+.skill p {
     align-items: center;
     font-size: 15px;
     color: gray;
     margin-block-start: 5px;
     margin-block-end: 5px;
+}
+
+.projects-container {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.projects-container hr {
+    border: 1px groove lightgray;
+    width: 75%;
+    margin-left: 5cm;
+}
+
+.project {
+    margin: 0 15px 15px 30px;
+    padding-bottom: 5px;
+}
+
+.project h3 {
+    font-size: 25px;
+    margin-left: 20px;
+    color: black;
+}
+
+.project li {
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
 }
