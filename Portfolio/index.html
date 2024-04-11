@@ -1,27 +1,70 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>Portfolio</title>
     </head>
     <body>
-        <header>
-            <h1>Nusa Stegnar</h1>
-            <p class="a">
-                <a href="#"><i class="fa fa-mobile-phone"></i></a>
-                +38631871142
-            </p>
-            <p class="b">
-                <a href="#"><i class="fa fa-mail"></i></a>
-                nusa.stegnar@gmail.com
-            </p>
-
-            <div class="topnav-right">
-                <a href="#about_me">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
-                <a href="#recommendations">Recomendations</a>
+        <nav>
+            <div id="home">
+                <div class="topdiv-right">
+                    <a class="topmenu" href="#about_me">About Me</a>
+                    <a class="topmenu" href="#skills">Skills</a>
+                    <a class="topmenu" href="#projects">Projects</a>
+                    <a class="topmenu" href="#recommendations">Recomendations</a>
+                    </div>
+                <div class="profile_name">
+                    Nusa Stegnar
+                    <div class="contact_info">
+                        📞 +38631871142
+                    </div>
+                    <div style="clear: both;"></div>
+                    <div class="contact_info">
+                        📧 nusa.stegnar@gmail.com
+                    </div>
+                </div>  
             </div>
-        </header>
+        </nav>
+           
+        
+        <section id="about_me" class="info">
+            <div>
+                <img src="static/image/girl.png" alt="girl">
+            </div>
+
+            <div>
+                <h2>Hello, I'm Nusa Stegnar! 🙋‍♀️</h2>
+                <p>
+                    Pisem tekst da preverim izgled postavitve strani, da bo izgledalo kot stram, ki nam je v pomoc pri izdelavi.
+                    ne vem kaj pisem pisem pa zato, da bo napisan vsaj en odstavek.
+                </p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h3>Skills</h3>
+            <div style="clear: both;"></div>
+
+            <div class="all_skills">
+                <div class="skill">
+                    <img src="static/image/python.png"/>
+                    <h6>Python</h6>
+                    <p>more than a year learning</p>
+                </div>
+
+                <div class="skill">
+                    <img src="static/image/html.png"/>
+                    <h6>HTML</h6>
+                    <p>less than a year learning</p>
+                </div>
+
+                <div class="skill">
+                    <img src="static/image/css.png"/>
+                    <h6>CSS</h6>
+                    <p>less than a year learning</p>
+                </div>
+            </div>
+        </section>
     </body>
 </html>
