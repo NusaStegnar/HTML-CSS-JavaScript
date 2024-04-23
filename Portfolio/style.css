@@ -47,21 +47,43 @@ body {
     color: white;
 }
 
-.info h1{
+
+.introduction {
+    text-align: justify;
+    font-size: 30px;
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    animation-duration: 5s;
+    position: relative;
+}
+
+.container {
+    display: flex;
+}
+
+.about_me {
+    display: flex;
+    align-items: center;
+}
+
+#about_me h1{
     color: blueviolet;
     font-size: 40px;
     font-family: Lucida Sans;
     float: center;
+    margin-top: 90px;
 }
 
-.info p {
+#about_me p {
     color: bisque;
     font-size: 27px;
     font-family: Lucida Sans;
-    float: center;
+    margin-top: -1cm;
 }
 
-.info img {
+#about_me img {
     float: left;
     width: 550px;
     height: fit-content;
@@ -153,7 +175,7 @@ h2 {
     flex-flow: wrap;
     padding: 20px;
 }
-
+  
 .recommendation {
     font-style: italic;
     text-align: left;
@@ -169,13 +191,13 @@ h2 {
     height:150px;
     color: black;
 }
-
+  
 .recommendation span {
-    color: #7600bc;
+    color: black;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-
+  
 .iconbutton {
     width: 48px;
     height: 48px;
@@ -189,7 +211,7 @@ h2 {
     bottom: 3%;
     cursor: pointer;
 }
-
+  
 .popup {
     width:400px;
     background-color: #e8bcf0;
@@ -199,14 +221,14 @@ h2 {
     transform: translate(-50%,-50%);
     text-align: center;
     position: fixed;
-    /* padding: 30px; */
+    padding: 30px;
     visibility: hidden;
 }
-
+  
 .popup img {
     padding-top: 20px;
 }
-
+  
 .popup button {
     background-color: #fff;
     border: 1px solid #7600bc;
@@ -220,7 +242,7 @@ h2 {
     font-size: 20px;
     margin-left: 25%;
 }
-
+  
 .popup button:hover {
     background-color: #fff;
     border: 2px solid #7600bc;
@@ -231,13 +253,13 @@ h2 {
     cursor: pointer;
     margin-left: 25%;
 }
-
+  
 input, textarea {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     margin: 10px;  
     width:100%;
 }
-
+  
 fieldset {
     display: flexbox;
     align-content: center;
@@ -248,7 +270,7 @@ fieldset {
     border: thin solid white;
     width: 50%;
 }
-
+  
 button {
     background-color: #fff;
     border: 1px solid #7600bc;
@@ -261,7 +283,7 @@ button {
     width: 2in;
     font-size: 20px;
 }
-
+  
 button:hover {
     background-color: #7600bc;
     border: 1px solid #7600bc;
@@ -271,14 +293,3 @@ button:hover {
     text-align: center;
     cursor: pointer;
 }
-
-.introduction {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    float: left;
-    animation-duration: 5s;
-    position: relative;
-    color: black;
-  }

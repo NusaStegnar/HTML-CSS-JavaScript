@@ -4,7 +4,7 @@ function addRecommendation() {
 
     if (recommendation.value != null && recommendation.value.trim() != "") {
       console.log("New recommendation added");
-        showPopup(true);
+      showPopup(true);
   
       
       var element = document.createElement("div");

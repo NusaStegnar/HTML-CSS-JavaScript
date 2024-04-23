@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
         <title>Portfolio</title>
     </head>
     <body>
@@ -15,32 +16,35 @@
                     <a class="topmenu" href="#recommendations">Recomendations</a>
                     </div>
                 <div class="profile_name">
-                    Nusa Stegnar
+                    Jane Doe
                     <div class="contact_info">
-                        📞 +38631871142
+                        📞 +000000000
                     </div>
                     <div style="clear: both;"></div>
                     <div class="contact_info">
-                        📧 nusa.stegnar@gmail.com
+                        📧 jane.doe@gmail.com
                     </div>
                 </div>  
             </div>
         </nav>
            
         
-        <section id="about_me" class="info">
+        <section id="about_me" class="container">
             <div>
-                <img src="static/image/girl.png" alt="girl">
+                <img src="static/image/girl.png" class="profile_image">
             </div>
 
             <div>
-                <h1>Hello, 🙋‍♀️ I'm Nusa Stegnar!</h1>
+                <h1>Hello, 🙋‍♀️ I'm Jane Doe!</h1>
                 <p>
-                    Pisem tekst da preverim izgled postavitve strani, da bo izgledalo kot stram, ki nam je v pomoc pri izdelavi.
-                    ne vem kaj pisem pisem pa zato, da bo napisan vsaj en odstavek.
+                    Detail-oriented and motivated Junior Full Stack Developer with a passion for creating innovative 
+                    web applications. Possess strong skills in both front-end and back-end development, 
+                    along with a solid understanding of various programming languages and frameworks. 
+                    Eager to contribute to a dynamic team and further develop technical expertise.
                 </p>
             </div>
         </section>
+
 
         <section id="skills">
             <h2>Skills</h2>
@@ -99,60 +103,52 @@
 
         <section id="recommendations">
             <h2>Recommendations</h2>
-            <div style="clear: both;"></div> 
-
-            <div id="all_recommendations" class="all_recommendations">
-                <div class="recommendation">
-                    <span>&#8220;</span>
-                    Jane is a very quick learner and quickly grasps key concepts of Web development. 
-                    She got a great attitude & she is an excellent team player. 
-                    She has a curious mind and asks the right question. 
-                    She takes initiative within a team and has potentials to lead the team.
-                    <span>&#8221;</span>
-                </div>
-
-                <div class="recommendation">
-                    <span>&#8220;</span>
-                    I had worked along with Jane during the initial phase of our venture which needed Web development. 
-                    She is a committed resource who has in depth knowledge about the domain. 
-                    She will be an asset for any organisation! 
-                    <span>&#8221;</span>
-                </div>
-
-                <div class="recommendation">
-                    <span>&#8220;</span>
-                    Working with Jane has been an awesome experience. 
-                    She is highly knowledgable and always goes the extra step to make sure everything is right. 
-                    <span>&#8221;</span>
-                </div>
+            <div style="clear:both;"></div>
+            <div class="all_recommendations" id="all_recommendations">
+              <div class="recommendation">
+                <span>&#8220;</span>
+                Highly recommend for their exceptional work ethic and dedication. Consistently delivers quality results and exceeds expectations.
+                <span>&#8221;</span>
+              </div>
+              <div class="recommendation">
+                <span>&#8220;</span>
+                A top-notch professional with outstanding skills and a positive attitude. A valuable asset to any team.
+                <span>&#8221;</span>
+              </div>
+              <div class="recommendation">
+                <span>&#8220;</span>
+                Reliable, diligent, and skilled. Consistently demonstrates excellence in every task undertaken. 
+                <span>&#8221;</span>
+              </div>
             </div>
-        </section>
-
-        <section id="contact">
-            <div class="flex-center">
-                <fieldset>
-                    <legend class="introduction">Leave a Recomendation</legend>
-                    <input type="text" placeholder="Name (Optional)"><br/>
-                    <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
-                    <div class="flex-center">
-                        <button id="recommend_btn" onclick="addRecommendatin()">Submit</button>
-                    </div>
-                </fieldset>
+          </section>
+      
+          
+          <section id="contact">
+            <div class="flex_center">
+              <fieldset>
+                <legend class="introduction">Leave a Recommendation</legend>          
+                <input type="text" placeholder="Name (Optional)"> <br/>
+                <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+                <div class="flex_center">
+                  <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                </div>
+              </fieldset>
             </div>
-        </section>
-
-        <div class="iconbutton">
+          </section>
+      
+          <div class="iconbutton">
             <a href="#home">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
             </a>
-        </div>
-
-        <div class="popup" id="popup" class="flex-center">
-            <img src="static/image/checkmark--outline.svg"/>
+          </div>
+      
+          <div class="popup" id="popup" class="flex_center">
+            <img src="html_finalprojimages/checkmark--outline.svg"/>
             <h3>Thanks for leaving a recommendation!</h3>
             <button onclick="showPopup(false)">Ok</button>
-        </div>
-    </body>
-</html>
+          </div>
+        </body>
+      </html>
